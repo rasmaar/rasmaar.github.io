@@ -1,0 +1,112 @@
+/* Styling Umum */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #322121, #432a2a); /* Gradient modern */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Utama */
+.container {
+    background: #997d7d;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Judul */
+h1 {
+    color: #000000;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+/* Foto Profil */
+.photo img {
+    width: 140px;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid #7b5353;
+    margin: 10px;
+}
+
+/* List Data */
+ul {
+    list-style-type: square;
+    text-align: left;
+    padding-left: 40px;
+    color: #000000;
+    font-size: 16px;
+}
+
+/* Tabel Pendidikan */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: #997d7d;
+    border-radius: 8px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #7b5353;
+    color: white;
+}
+
+/* Formulir Kontak */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+.contact-form button {
+    background: #481d1d;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #481212;
+}
+
+
+#colorButton {
+    background: #481d1d;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+#colorButton:hover {
+    background: #481212;
+}
