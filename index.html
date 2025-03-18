@@ -1,53 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PBP minggu ke 3</title>
-    <script>
-        function handleSubmit(event){
-            event.preventDefault();
-
-            let email = document.getElementById("email").value;
-
-            console.log("Form Submitted! Email:", email);
-            alert("Form berhasil dikirim! Email:" + email);
-        }
-    </script>
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <img src="image.png" alt="Contoh" width="300" height="200"/>
-    </div>
-    <div>
-        <table border="1">
-            <tr>
-                <th>Nama</th>
-                <th>Kota</th>
-            </tr>
-            <tr>
-                <th>Rasma</th>
-                <th>Kendari</th>
-            </tr>
-            <tr>
-                <th>Bunga</th>
-                <th>Bandung</th>
-            </tr>
-        </table>
-    </div>
-    <div>
-        <h2>Formulir</h2>
-        <form onsubmit="handleSubmit(event)">
-            <label for="nama">Nama:</label>
-            <input type="text" id="nama" name="nama"><br><br>
-            <select>
-                <option></option>
-            </select>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
 
-            <input type="submit" value="kirim">
+    <div class="container">
+        <h1>CURRICULUM VITAE</h1>
+        <div class="photo">
+            <img src="foto profil.png" alt="Foto Profil">
+        </div>
+        <div class="text">
+            <h2>Data Diri</h2>
+            <ul>
+                <p><strong>Nama:</strong> Rasma AR</p>
+                <p><strong>Jenis Kelamin:</strong> Perempuan</p>
+                <p><strong>Alamat:</strong> Btn Green Ari Perdana Blok B no.1</p>
+            </ul>
+
+            <h2>Riwayat Pendidikan</h2>
+            <table>
+                <tr>
+                    <th>Jenjangan</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Universitas</td>
+                    <td>Universitas Haluoleo</td>
+                </tr>
+                <tr>
+                    <td>SMA</td>
+                    <td>SMAN 1 KENDARI</td>
+                    
+                </tr>
+                <tr>
+                    <td>SMP</td>
+                    <td>SMPN 3 KENDARI</td>
+                    
+                </tr>
+                <tr>
+                    <td>SD</td>
+                    <td>SDN 313 TUA</td>
+                </tr>
+            </table>
+
+            <h2>Pengalaman</h2>
+            <ul>
+                <li>Anggota Pramuka</li>
+                <li>Anggota Paskibraka</li>
+                <li>Anggota MPK</li>
+                <li>Panitia Pemilihan Ketua OSIS</li>
+            </ul>
+
+            <h2>Kontak</h2>
+            <ul>
+                <li>Email: <a href="mailto:rasmaar49@gmail.com">rasmaar49@gmail.com</a></li>
+                <li>No. Telp: 085137992993</li>
+                <li>Instagram: <a href="https://instagram.com/rsmaa1_" target="_blank">rsmaa1_</a></li>
+            </ul>
+            <h2>Kontak</h2>
+        <form class="contact-form" onsubmit="return submitForm()">
+            <input type="text" id="name" placeholder="Nama" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="message" placeholder="Pesan" required></textarea>
+            <button type="submit">Kirim</button>
         </form>
+        <p id="response"></p>
+        </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
