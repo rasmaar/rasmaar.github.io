@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rasma AR — Ilmu Komputer · Universitas Halu Oleo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "#person",
+      "name": "Rasmaar",
+      "jobTitle": "Mahasiswa",
+      "description": "Mahasiswa yang memiliki minat di bidang Web Development, Java Programming, dan Database.",
+      "url": "https://username.github.io/profil-semantic/",
+      "email": "rasmaar49@gmail.com",
+      "knowsAbout": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "Laravel",
+        "Java",
+        "MySQL",
+        "Web Development"
+      ],
+      "alumniOf": {
+        "@id": "#campus"
+      }
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "@id": "#campus",
+      "name": "Universitas Terbuka",
+      "url": "https://www.ut.ac.id",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Indonesia"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "#project",
+      "name": "Website Portofolio Pribadi",
+      "description": "Website portofolio yang menampilkan profil, pendidikan, organisasi, pengalaman, dan keterampilan.",
+      "creator": {
+        "@id": "#person"
+      },
+      "url": "https://rasmaar.github.io/profil-semantic/",
+      "inLanguage": "id"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "#skill",
+      "name": "Web Development",
+      "description": "Kemampuan dalam mengembangkan website menggunakan HTML, CSS, JavaScript, PHP, Laravel, dan MySQL.",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "Keahlian"
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<div class="app">
+
+  <!-- SIDEBAR KIRI -->
+  <aside class="sidebar">
+    <div class="s-logo"><span>~/</span>rasmaar</div>
+
+    <div class="avatar">R</div>
+
+    <div class="chip"><span class="cdot"></span>Mahasiswi Aktif · Semester 6</div>
+
+    <h1 class="s-name">Rasma <span class="s-name-ac">AR</span></h1>
+
+    <p class="s-role">
+      <span class="hl">Ilmu Komputer</span>
+      <span class="sep">·</span>
+      <span>Universitas Halu Oleo</span>
+    </p>
+
+    <p class="s-bio">Mahasiswi Ilmu Komputer semester akhir di Universitas Halu Oleo, Kendari. Aktif berorganisasi sejak sekolah dasar hingga perguruan tinggi, dengan ketertarikan pada teknologi dan manajemen tim.</p>
+
+    <div class="qinfo">
+      <div class="qrow">
+        <div class="qicon">📍</div>
+        <div><div class="qlb">Lokasi</div><div class="qvl">Kendari, Sulawesi Tenggara</div></div>
+      </div>
+      <div class="qrow">
+        <div class="qicon">🎂</div>
+        <div><div class="qlb">Tanggal Lahir</div><div class="qvl">01 Juni 2004</div></div>
+      </div>
+      <div class="qrow">
+        <div class="qicon">✉️</div>
+        <div><div class="qlb">Email</div><div class="qvl"><a href="mailto:rasmaar49@gmail.com">rasmaar49@gmail.com</a></div></div>
+      </div>
+      <div class="qrow">
+        <div class="qicon">📱</div>
+        <div><div class="qlb">Telepon</div><div class="qvl"><a href="tel:081271034312">0812-7103-4312</a></div></div>
+      </div>
+    </div>
+
+    <div class="sbtns">
+      <a href="mailto:rasmaar49@gmail.com" class="btn-g">✉ Hubungi Saya</a>
+      <a href="tel:081271034312" class="btn-o">📱 Telepon</a>
+    </div>
+  </aside>
+
+  <!-- MAIN KANAN -->
+  <main class="main">
+
+    <!-- TAB BAR -->
+    <div class="tabbar">
+      <div class="tab active" data-panel="identitas">
+        <span class="tab-ic">👤</span> Identitas Diri
+      </div>
+      <div class="tab" data-panel="pendidikan">
+        <span class="tab-ic">🎓</span> Pendidikan
+      </div>
+      <div class="tab" data-panel="skills">
+        <span class="tab-ic">💡</span> Skills
+      </div>
+      <div class="tab" data-panel="organisasi">
+        <span class="tab-ic">🏛</span> Organisasi
+      </div>
+    </div>
+
+    <!-- KONTEN -->
+    <div class="content">
+
+      <!-- IDENTITAS -->
+      <div class="panel active" id="panel-identitas">
+        <div class="ph">
+          <div class="pey">Profil Lengkap</div>
+          <h2 class="ptl">Identitas Diri</h2>
+        </div>
+        <div class="idg">
+          <div class="idr"><span class="idk">Nama Lengkap</span><span class="idv">Rasma AR</span></div>
+          <div class="idr"><span class="idk">Jenis Kelamin</span><span class="idv">Perempuan</span></div>
+          <div class="idr"><span class="idk">Tempat, Tanggal Lahir</span><span class="idv">01 Juni 2004</span></div>
+          <div class="idr"><span class="idk">Status Pernikahan</span><span class="idv">Belum Menikah</span></div>
+          <div class="idr"><span class="idk">Kewarganegaraan</span><span class="idv">Indonesia 🇮🇩</span></div>
+          <div class="idr"><span class="idk">Nomor Telepon</span><span class="idv"><a href="tel:081271034312">0812-7103-4312</a></span></div>
+          <div class="idr full"><span class="idk">Alamat Lengkap</span><span class="idv">Jl. Lawata, Puuwatu, Kota Kendari, Sulawesi Tenggara</span></div>
+          <div class="idr full"><span class="idk">Email</span><span class="idv"><a href="mailto:rasmaar49@gmail.com">rasmaar49@gmail.com</a></span></div>
+        </div>
+      </div>
+
+      <!-- PENDIDIKAN -->
+      <div class="panel" id="panel-pendidikan">
+        <div class="ph">
+          <div class="pey">Akademik</div>
+          <h2 class="ptl">Riwayat Pendidikan</h2>
+        </div>
+        <div class="etl">
+          <div class="ei">
+            <div class="eyc"><span class="eyr">2023</span><span class="eyr">–</span><span class="eyr">Kini</span></div>
+            <div class="eln"></div><div class="edt"></div>
+            <div class="ec">
+              <div class="elv">Perguruan Tinggi · S1</div>
+              <div class="enm">Universitas Halu Oleo</div>
+              <div class="esb">Prodi Ilmu Komputer · FMIPA</div>
+              <span class="ebg">✦ Semester 6</span>
+            </div>
+          </div>
+          <div class="ei">
+            <div class="eyc"><span class="eyr">2020</span><span class="eyr">–</span><span class="eyr">2023</span></div>
+            <div class="eln"></div><div class="edt"></div>
+            <div class="ec">
+              <div class="elv">Sekolah Menengah Atas</div>
+              <div class="enm">SMAN 1 Kendari</div>
+              <div class="esb">Kendari, Sulawesi Tenggara</div>
+            </div>
+          </div>
+          <div class="ei">
+            <div class="eyc"><span class="eyr">2017</span><span class="eyr">–</span><span class="eyr">2020</span></div>
+            <div class="eln"></div><div class="edt"></div>
+            <div class="ec">
+              <div class="elv">Sekolah Menengah Pertama</div>
+              <div class="enm">SMPN 3 Kendari</div>
+              <div class="esb">Kendari, Sulawesi Tenggara</div>
+            </div>
+          </div>
+          <div class="ei">
+            <div class="eyc"><span class="eyr">2012</span><span class="eyr">–</span><span class="eyr">2017</span></div>
+            <div class="edt"></div>
+            <div class="ec">
+              <div class="elv">Sekolah Dasar</div>
+              <div class="enm">SDN 313 Tua</div>
+              <div class="esb">Sengkang, Sulawesi Selatan</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SKILLS -->
+      <div class="panel" id="panel-skills">
+        <div class="ph">
+          <div class="pey">Kompetensi</div>
+          <h2 class="ptl">Daftar Skill</h2>
+        </div>
+        <div class="skgr">
+          <div class="skc c-v"><div class="ski iv">💻</div><div><div class="skn">Web Development</div><div class="skd">Pengembangan website menggunakan HTML, CSS, PHP, dan MySQL untuk membangun aplikasi web yang responsif.</div></div></div>
+          <div class="skc c-t"><div class="ski it">💼</div><div><div class="skn">Microsoft Office</div><div class="skd">Word, Excel, PowerPoint untuk dokumen dan presentasi profesional.</div></div></div>
+          <div class="skc c-v"><div class="ski iv">⏱</div><div><div class="skn">Manajemen Waktu</div><div class="skd">Mengatur prioritas dan tenggat di tengah jadwal akademik &amp; organisasi.</div></div></div>
+          <div class="skc c-t"><div class="ski it">🤝</div><div><div class="skn">Kerja Tim</div><div class="skd">Kolaboratif dalam berbagai lingkungan dari sekolah hingga kampus.</div></div></div>
+          <div class="skc c-r"><div class="ski ir">🗣</div><div><div class="skn">Komunikasi</div><div class="skd">Menyampaikan ide jelas, mendengarkan aktif, membangun relasi baik.</div></div></div>
+          <div class="skc c-a"><div class="ski ia">⭐</div><div><div class="skn">Jujur &amp; Disiplin</div><div class="skd">Berkomitmen pada integritas dan ketepatan waktu.</div></div></div>
+        </div>
+      </div>
+
+      <!-- ORGANISASI -->
+      <div class="panel" id="panel-organisasi">
+        <div class="ph">
+          <div class="pey">Pengalaman</div>
+          <h2 class="ptl">Keterlibatan Organisasi</h2>
+        </div>
+        <div class="ogl">
+          <div class="ogc">
+            <div class="ogh"><span class="ogn2">01</span><div class="ogi" style="background:rgba(251,191,36,.1)">🏕</div><div class="ogm"><div class="ogtt">Pramuka</div><div class="ogwh">SMP · SMPN 3 Kendari</div></div><span class="ogp p-smp">SMP</span></div>
+            <div class="ogb">Pembentukan karakter, kedisiplinan, kerja sama tim, dan kemandirian melalui kegiatan kepramukaan.</div>
+          </div>
+          <div class="ogc">
+            <div class="ogh"><span class="ogn2">02</span><div class="ogi" style="background:rgba(129,140,248,.1)">🚩</div><div class="ogm"><div class="ogtt">Paskibraka</div><div class="ogwh">SMP · SMPN 3 Kendari</div></div><span class="ogp p-smp">SMP</span></div>
+            <div class="ogb">Melatih kedisiplinan, ketepatan waktu, kerja sama, dan nasionalisme sebagai Pasukan Pengibar Bendera.</div>
+          </div>
+          <div class="ogc">
+            <div class="ogh"><span class="ogn2">03</span><div class="ogi" style="background:rgba(167,139,250,.1)">🏪</div><div class="ogm"><div class="ogtt">KOPSIS — Koperasi Siswa</div><div class="ogwh">SMA · SMAN 1 Kendari</div></div><span class="ogp p-sma">SMA</span></div>
+            <div class="ogb">Pengelolaan usaha dan administrasi koperasi sekolah; belajar pelayanan anggota dan manajemen ekonomi sederhana.</div>
+          </div>
+          <div class="ogc">
+            <div class="ogh"><span class="ogn2">04</span><div class="ogi" style="background:rgba(167,139,250,.1)">📋</div><div class="ogm"><div class="ogtt">K2S — Komite Keamanan Sekolah</div><div class="ogwh">SMA · SMAN 1 Kendari</div></div><span class="ogp p-sma">SMA</span></div>
+            <div class="ogb">Perencanaan dan pelaksanaan kegiatan sekolah, komunikasi lintas pihak, dan koordinasi antar siswa.</div>
+          </div>
+          <div class="ogc">
+            <div class="ogh"><span class="ogn2">05</span><div class="ogi" style="background:rgba(167,139,250,.1)">💬</div><div class="ogm"><div class="ogtt">PIK-R — Pusat Informasi &amp; Konseling Remaja</div><div class="ogwh">SMA · SMAN 1 Kendari</div></div><span class="ogp p-sma">SMA</span></div>
+            <div class="ogb">Edukasi remaja, penyebaran informasi positif, komunikasi, dan perencanaan masa depan bagi sesama siswa.</div>
+          </div>
+          <div class="ogc">
+            <div class="ogh"><span class="ogn2">06</span><div class="ogi" style="background:rgba(167,139,250,.1)">🏛</div><div class="ogm"><div class="ogtt">MPK — Majelis Perwakilan Kelas</div><div class="ogwh">SMA · SMAN 1 Kendari</div></div><span class="ogp p-sma">SMA</span></div>
+            <div class="ogb">Wadah aspirasi siswa dan mitra OSIS; belajar kepemimpinan, pengambilan keputusan, dan evaluasi kegiatan sekolah.</div>
+          </div>
+          <div class="ogc">
+            <div class="ogh"><span class="ogn2">07</span><div class="ogi" style="background:rgba(251,113,133,.1)">🎓</div><div class="ogm"><div class="ogtt">HMPS Ilmu Komputer</div><div class="ogwh">Universitas Halu Oleo</div></div><span class="ogp p-univ">Univ</span></div>
+            <div class="ogb">Aktif dalam Himpunan Mahasiswa Prodi Ilmu Komputer; terlibat kegiatan akademik dan non-akademik pengembangan mahasiswa.</div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- end content -->
+  </main>
+</div>
+
+<script>
+  document.querySelectorAll('.tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById('panel-' + tab.dataset.panel).classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>
